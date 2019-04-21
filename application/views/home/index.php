@@ -115,33 +115,8 @@
 						</a>
 						<h4 title="Shazam, Logika Anak dalam Narasi Manusia Super">Shazam, Logika Anak dalam Narasi Manusia Super</h4>
 			    </div>
-			    <div class="col col-md-3">
-			      <div class="avpost">
-				     	<a href="https://www.asumsi.co/video/pangeran-mingguan-ahy-gak-cuma-ngomongin-pilpres" title="Pangeran, Mingguan: AHY Gak Cuma Ngomongin Pilpres">
-						<img src="https://img.youtube.com/vi/3tFIFbyk584/mqdefault.jpg" alt="Pangeran, Mingguan: AHY Gak Cuma Ngomongin Pilpres">
-						<div class="ovpost">
-							<div class="text-center">
-								<i class="fa fa-play"></i>
-							</div>
-						</div>
-						</a>
-						<h4 title="Pangeran, Mingguan: AHY Gak Cuma Ngomongin Pilpres">Pangeran, Mingguan: AHY Gak Cuma Ngomongin Pilpres</h4>
-			    	</div>
-			    <div class="col col-md-3">
-			      <div class="avpost">
-				     	<a href="https://www.asumsi.co/video/paguyuban-korban-uu-ite" title="Paguyuban Korban UU ITE">
-						<img src="https://img.youtube.com/vi/yEPJLwPtkN8/mqdefault.jpg" alt="Paguyuban Korban UU ITE">
-						<div class="ovpost">
-							<div class="text-center">
-								<i class="fa fa-play"></i>
-							</div>
-						</div>
-						</a>
-						<h4 title="Paguyuban Korban UU ITE">Paguyuban Korban UU ITE</h4>
-			    	</div>
-			    </div>
 			  </div>
-			</div>
+			</div><br><br><br><br>
 			<div class="row">
 				<div class="col-lg-9">
 					<div class="dpost">
@@ -178,6 +153,42 @@
 				                    	</div>
 				                   	</div>
 				                </div>
+				                <div class="post-item row">
+				                <div class="col-md-4">
+				                    <div class="tpost">
+		                                <a href="https://www.asumsi.co/post/Politik-Uang-Jadi-Catatan-Penutup-Pemilu-2019" title="Politik Uang Jadi Catatan Penutup Pemilu 2019">
+		                                <img id="detail" src="https://s3-ap-southeast-1.amazonaws.com/storage.asumsi.co/uploads/public/5cb/6e6/d6b/thumb_3457_800_500_0_0_crop.jpg" alt="Politik Uang Jadi Catatan Penutup Pemilu 2019">
+		                                </a>
+		                            </div>
+		                		</div>
+				                <div class="col-md">
+				                    <div class="gpost">
+				                        <div class="row">
+				                            <div class="col-sm-12 text-left">
+				                            	<a href="https://www.asumsi.co/category/pemilu" title="Pemilu"><p class="tag-little" title="Pemilu"> Pemilu </p></a>
+				                                <a href="https://www.asumsi.co/category/politik" title="Politik"><p class="tag-little" title="Politik"> Politik </p></a>
+				                            </div>
+				                        </div>
+				                            <a href="https://www.asumsi.co/post/beda-exit-poll-quick-count-dan-real-count-di-pemilu" title="Beda Exit Poll, Quick Count, dan Real Count di Pemilu "><h2 title="Beda Exit Poll, Quick Count, dan Real Count di Pemilu ">Beda Exit Poll, Quick Count, dan Real Count di Pemilu </h2></a>
+				                            <span class="mpost">Sering dengar istilah "exit poll", "quick count", dan "real count"? Apa bedanya, ya?</span>
+				                            <div class="row">
+				                                <div class="col-md">
+				                                    <span class="hpost">17 April 2019</span>
+				                                </div>
+				                               
+				                            </div>
+				                    	</div>
+				                   	</div>
+				      				</div>
+				     			 </div>
+				      			</div>
+				     			</div>
+				     		</div>
+						</div>
+					</div>
+				</div>
+				</div></div></div></div>
+			</section>                
             </div>
 	</div>
 </body>

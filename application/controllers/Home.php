@@ -8,5 +8,4 @@
 			$this->load->view('home/index');
 			$this->load->view('templates/footer');
 		}
-
 	}

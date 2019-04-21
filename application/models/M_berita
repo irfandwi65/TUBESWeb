@@ -1,0 +1,67 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+class M_berita extends CI_Model
+{
+    private $_table = "berita";
+
+    public $berita_id;
+    public $judul;
+    public $penerbit;
+    public $genre;
+    public $gambar;
+    public $tanggal;
+    public $deskripsi;
+
+    public function rules()
+    {
+        return [
+            ['field' => 'judul',
+            'label' => 'Judul',
+            'rules' => 'required'],
+
+            ['field' => 'deskripsi',
+            'label' => 'Deskripsi',
+            'rules' => 'required'],
+        ];
+    }
+
+    public function getAll()
+    {
+        return $this->db->get($this->_table)->result();
+    }
+    
+    public function getById($berita_id)
+    {
+        return $this->db->get_where($this->_table, ["berita_id" => $berita_id])->row();
+    }
+
+    public function save($gambar)
+    {
+        $post = $this->input->post();
+        // $this->id = uniqid();
+        $this->nama = $post["judul"];
+        $this->harga = $post["penerbit"];
+        $this->jenis = $post["genre"];
+        $this->jumlah = $post["tanggal"];
+        $this->jumlah = $post["deskripsi"];
+        $this->img = $gambar;
+        $this->db->insert($this->_table, $this);
+    }
+
+    public function update($gambar)
+    {
+        $post = $this->input->post();
+        $this->nama = $post["judul"];
+        $this->harga = $post["penerbit"];
+        $this->jenis = $post["genre"];
+        $this->jumlah = $post["tanggal"];
+        $this->jumlah = $post["deskripsi"];
+        $this->img = $gambar;
+        $this->db->update($this->_table, $this, array('berita_id' => $post['berita_id']));
+    }
+
+    public function delete($berita_id)
+    {
+        return $this->db->delete($this->_table, array("berita_id" => $berita_id));
+    }
+}

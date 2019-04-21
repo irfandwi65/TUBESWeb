@@ -86,7 +86,7 @@
                             <span class="bar"></span>
                         </a>
                     <div class="text-center">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="http://localhost/webpro">
                             <img id="logo-place" src="https://www.asumsi.co/themes/asumsinew/assets/images/new-logo.png" alt="ASUMSI" height="50">
                             <img id="logo-place-2" class="shownow" src="https://www.asumsi.co/themes/asumsinew/assets/images/new-logo.png" alt="ASUMSI" height="50">
                         </a>
