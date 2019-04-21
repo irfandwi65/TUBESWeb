@@ -76,107 +76,106 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body class="fill">
-        <div class="backdrop"></div>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
-    <div class="container space-container">
-        <a data-toggle=".fill" class="openside" id="sidebar-toggle">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="text-center">
-            <a class="navbar-brand" href="#">
-                <img id="logo-place" src="https://www.asumsi.co/themes/asumsinew/assets/images/new-logo.png" alt="ASUMSI" height="50">
-                <img id="logo-place-2" class="shownow" src="https://www.asumsi.co/themes/asumsinew/assets/images/new-logo.png" alt="ASUMSI" height="50">
-            </a>
-        </div>
-        <a class="search" data-toggle="collapse" href="#search-bar" aria-expanded="false" aria-controls="search-bar">
-            <i class="la la-search"></i>
-        </a>
-        <a class="navbar-toggler" href="#" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            <span></span>
-            <span></span>
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-
-                                                	<!-- link pada bar -->
-
-                    <a class="nav-link dropdown-toggle" title="feature"  href="#politik" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Politik
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-2" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="#Pilkada" title="Pilkada">Pilkada</a>
-                                                <a class="dropdown-item" href="#Istana" title="Istana">Istana</a>
-                                                <a class="dropdown-item" href="#Parlemen" title="Parlemen">Parlemen</a>
-                                                <a class="dropdown-item" href="#Pemilu" title="Pemilu">Pemilu</a>
-                                            </div>
-                </li>
-                <li class="nav-item">
-                    <a href="#current" class="nav-link">Current Affairs</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Budaya" class="nav-link">Budaya Pop</a>
-                </li>                
-                <li class="nav-item ">
-                    <a class="nav-link" href="#" title="Video" >Video</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Opini</a>
-                </li>
-                <li class="nav-item search-margin">
-                    <a class="nav-link" data-toggle="collapse" href="#search-bar" aria-expanded="false" aria-controls="search-bar"><i class="fa fa-search"></i></a>
-                </li>
-            </ul>
-            <ul class="navbar-nav navbar-right">
-                <li class="nav-item social">
-                    <a class="nav-link" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li class="nav-item social">
-                    <a class="nav-link" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li class="nav-item social">
-                    <a class="nav-link" href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li class="nav-item social">
-                    <a class="nav-link" href="#" target="_blank"><i class="fa fa-youtube-play"></i></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="container search-place">
-        <div class="collapse" id="search-bar">
-            <div class="card card-body">
-                <div class="row">
-                    <div class="col-sm-3"></div>
-                    <div class="col-sm-6">
-                        <form class="form-inline" method="GET" action="#"> <!-- ACTION SEARCH -->
-                            <input class="form-control search-input" placeholder="Search here" name="search">
-                        </form>
+                <body class="fill">
+                    <div class="backdrop"></div>
+                    <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+                    <div class="container space-container">
+                        <a data-toggle=".fill" class="openside" id="sidebar-toggle">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                    <div class="text-center">
+                        <a class="navbar-brand" href="#">
+                            <img id="logo-place" src="https://www.asumsi.co/themes/asumsinew/assets/images/new-logo.png" alt="ASUMSI" height="50">
+                            <img id="logo-place-2" class="shownow" src="https://www.asumsi.co/themes/asumsinew/assets/images/new-logo.png" alt="ASUMSI" height="50">
+                        </a>
                     </div>
-                    <div class="col-sm-3"></div>
+                    <a class="search" data-toggle="collapse" href="#search-bar" aria-expanded="false" aria-controls="search-bar">
+                        <i class="la la-search"></i>
+                    </a>
+                    <a class="navbar-toggler" href="#" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+
+                                                            	<!-- link pada bar -->
+
+                                <a class="nav-link dropdown-toggle" title="feature"  href="#politik" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Politik
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-2" aria-labelledby="navbarDropdown">
+                                                            <a class="dropdown-item" href="#Pilkada" title="Pilkada">Pilkada</a>
+                                                            <a class="dropdown-item" href="#Istana" title="Istana">Istana</a>
+                                                            <a class="dropdown-item" href="#Parlemen" title="Parlemen">Parlemen</a>
+                                                            <a class="dropdown-item" href="#Pemilu" title="Pemilu">Pemilu</a>
+                                                        </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#current" class="nav-link">Current Affairs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Budaya" class="nav-link">Budaya Pop</a>
+                            </li>                
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" title="Video" >Video</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Opini</a>
+                            </li>
+                            <li class="nav-item search-margin">
+                                <a class="nav-link" data-toggle="collapse" href="#search-bar" aria-expanded="false" aria-controls="search-bar"><i class="fa fa-search"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav navbar-right">
+                            <li class="nav-item social">
+                                <a class="nav-link" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li class="nav-item social">
+                                <a class="nav-link" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="nav-item social">
+                                <a class="nav-link" href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li class="nav-item social">
+                                <a class="nav-link" href="#" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                <div class="container search-place">
+                    <div class="collapse" id="search-bar">
+                        <div class="card card-body">
+                            <div class="row">
+                                <div class="col-sm-3"></div>
+                                <div class="col-sm-6">
+                                    <form class="form-inline" method="GET" action="#"> <!-- ACTION SEARCH -->
+                                        <input class="form-control search-input" placeholder="Search here" name="search">
+                                    </form>
+                                </div>
+                                <div class="col-sm-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>        <div id="sidebar">
+                <div class="logo-place">
+
+                	<!-- Logo kalau dipencet balik lagi ke home -->
+
+                    <a href="#"><img src="https://www.asumsi.co/themes/asumsinew/assets/images/new-logo.png" alt="ASUMSI" height="60"></a>
+                    <div class="button_container active">
+                        <span class="top"></span>
+                        <span class="middle"></span>
+                        <span class="bottom"></span>
+                    </div>
+                </div>
+                </ul>
             </div>
-        </div>
-    </div>
-</nav>        <div id="sidebar">
-    <div class="logo-place">
+        </body>
+            
 
-    	<!-- Logo kalau dipencet balik lagi ke home -->
-
-        <a href="#"><img src="https://www.asumsi.co/themes/asumsinew/assets/images/new-logo.png" alt="ASUMSI" height="60"></a>
-        <div class="button_container active">
-            <span class="top"></span>
-            <span class="middle"></span>
-            <span class="bottom"></span>
-        </div>
-    </div>
-    </ul>
-    
-
-</div>
-        <h1 style="display:none !important;" title="ASUMSI - Portal Berita Online Terbaru & Terpercaya">ASUMSI - Portal Berita Online Terbaru & Terpercaya</h1>
-<section class="homepage">
