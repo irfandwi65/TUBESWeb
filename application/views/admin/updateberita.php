@@ -1,83 +1,42 @@
-<header>
-    	<div class="collapse bg-dark" id="navbarHeader">
-    		<h1 style="color: white">Update Berita</h1>
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-sm-8 col-md-7 py-4">
-    				 <h4 class="text-white">About</h4>
-    				 <p class="text-muted">Selamat Datang di Update Berita!<br>
-    				 Disini Administrator dapat Mengupdate Berita Sesuka Hati :)</p>
-    				 
-        </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container d-flex justify-content-between">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-</header>
+
 <body>
-<main role="main">
-	<center> 
-	<br>
-	<form style="background-color: white" method="post">  
-		<table  border="0" width="120"> 
-			<tr>
-				<div class="control-group">  
-	 				<label class="control-label" for="inputJudul">Judul</label>
-	 				<br>  
-					<input type="text" name="judul" class="text-field" id="judul_id" placeholder="Judul Berita" required >  
-					<div class="controls"></div>  
-				</div>  
-			</tr>
-			<br>
-			<tr>
-				<label>Penulis</label><br>
-				<input type="text" name="Penulis" placeholder="Nama Penulis" required><br>
-			</tr>
-			<br>
-			<tr>
-				<div class="control-group">  
-					<textarea rows="25" cols="50" class="span12" name="isi_berita" placeholder="Isi Berita..." required></textarea>    
-					<div class="controls"></div>  
-				</div>  
-			</tr>
-			<br>
-			<tr>
-				<br>
-				<label class="control-label" for="inputGambar">Input Gambar</label>  
-					<div class="controls"></div> 
-				<br> 
-				<input type="file" id="inputGambar" name="gbr_berita" required>  
-				
-			</tr>
-			<br>
-			<br>
+	<div class="container"><br>
+	<h1>Edit Berita</h1><br>
+	<?php foreach ($berita as $key) { ?>
+		<form method="post" enctype="multipart/form-data" action="<?php echo base_url('index.php/Dashboard/editAction/'.$key->id_berita); ?>">
+		  <div class="form-group">
+		    <label for="formGroupExampleInput">Judul</label>
+		    <input type="text" name="judul" value="<?php echo $key->judul; ?>" class="form-control" id="formGroupExampleInput" placeholder="Judul">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleFormControlSelect1">Kategori</label>
+		    <select name="kategori" class="form-control" id="exampleFormControlSelect1">
+		      <option value="current-affairs">current affairs</option>
+		      <option value="budaya-pop">budaya pop</option>
+		      <option value="politik">politik</option>
+		    </select>
+		  </div>
+		  <div class="form-group">
+		    <label for="formGroupExampleInput2">Penulis</label>
+		    <input type="text" name="penulis" value="<?php echo $key->penulis; ?>" class="form-control" id="formGroupExampleInput2" placeholder="Penulis">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleFormControlTextarea1">Isi Berita</label>
+		    <textarea name="isi" class="form-control" rows="3"><?php echo $key->isi; ?></textarea>
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleFormControlFile1">Input Gambar</label>
+		    <input type="file" name="gambar" class="form-control-file" id="exampleFormControlFile1">
+		  </div>
+		  <div class="control-group"> 
+			<div class="controls">  
+				<button type="submit" class="btn btn-primary btn-block">Edit</button>  
+				<button type="reset" class="btn btn-danger btn-block">Reset</button>
+			</div> 
+		  </div>
+		</form> 
+	<?php } ?> 
+	</div>
 
-			<tr> 
-				<div class="control-group"> 
-					<div class="controls"> 
-						<button type="submit" class="btn btn-primary">Reset</button> 
-						<button type="submit" class="btn btn-primary">Post</button>  
-					</div> 
-				</div>
-			</tr>
 
-		</table>
-		  
-	</form>  
-	</center>
-</main>
 </body>

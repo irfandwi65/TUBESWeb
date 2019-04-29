@@ -126,11 +126,12 @@
 				        
 				    </div>
 				    <div class="bottom posts"><!-- bottom -->
+				    	<?php foreach ($berita as $key) { ?>
 				                <div class="post-item row">
 				                <div class="col-md-4">
 				                    <div class="tpost">
-		                                <a href="https://www.asumsi.co/post/beda-exit-poll-quick-count-dan-real-count-di-pemilu" title="Beda Exit Poll, Quick Count, dan Real Count di Pemilu ">
-		                                <img id="detail" src="https://s3-ap-southeast-1.amazonaws.com/storage.asumsi.co/uploads/public/5cb/6e6/532/thumb_3456_800_500_0_0_crop.jpg" alt="Beda Exit Poll, Quick Count, dan Real Count di Pemilu ">
+		                                <a href="https://www.asumsi.co/post/beda-exit-poll-quick-count-dan-real-count-di-pemilu" title="<?php echo base_url('/image/'.$key->gambar); ?> ">
+		                                <img width="100" height="100" id="detail" src="<?php echo base_url('/image/'.$key->gambar); ?>" alt="<?php echo base_url('/image/'.$key->gambar); ?>">
 		                                </a>
 		                            </div>
 		                		</div>
@@ -138,49 +139,21 @@
 				                    <div class="gpost">
 				                        <div class="row">
 				                            <div class="col-sm-12 text-left">
-				                            	<a href="https://www.asumsi.co/category/pemilu" title="Pemilu"><p class="tag-little" title="Pemilu"> Pemilu </p></a>
-				                                <a href="https://www.asumsi.co/category/politik" title="Politik"><p class="tag-little" title="Politik"> Politik </p></a>
+				                            	<div><p class="tag-little" title="<?php echo $key->kategori; ?>"><?php echo $key->kategori; ?></p></div>
 				                            </div>
 				                        </div>
-				                            <a href="https://www.asumsi.co/post/beda-exit-poll-quick-count-dan-real-count-di-pemilu" title="Beda Exit Poll, Quick Count, dan Real Count di Pemilu "><h2 title="Beda Exit Poll, Quick Count, dan Real Count di Pemilu ">Beda Exit Poll, Quick Count, dan Real Count di Pemilu </h2></a>
-				                            <span class="mpost">Sering dengar istilah "exit poll", "quick count", dan "real count"? Apa bedanya, ya?</span>
+				                            <a href="<?php echo base_url('index.php/Home/berita/'.$key->id_berita); ?>"><h2><?php echo $key->judul; ?></h2></a>
+				                            <span class="mpost"><?php echo substr($key->isi, 0, 100).'...' ; ?></span>
 				                            <div class="row">
 				                                <div class="col-md">
-				                                    <span class="hpost">17 April 2019</span>
+				                                    <span class="hpost"><?php echo $key->tanggal; ?></span>
 				                                </div>
-				                               
 				                            </div>
 				                    	</div>
 				                   	</div>
 				                </div>
-				                <div class="post-item row">
-				                <div class="col-md-4">
-				                    <div class="tpost">
-		                                <a href="https://www.asumsi.co/post/Politik-Uang-Jadi-Catatan-Penutup-Pemilu-2019" title="Politik Uang Jadi Catatan Penutup Pemilu 2019">
-		                                <img id="detail" src="https://s3-ap-southeast-1.amazonaws.com/storage.asumsi.co/uploads/public/5cb/6e6/d6b/thumb_3457_800_500_0_0_crop.jpg" alt="Politik Uang Jadi Catatan Penutup Pemilu 2019">
-		                                </a>
-		                            </div>
-		                		</div>
-				                <div class="col-md">
-				                    <div class="gpost">
-				                        <div class="row">
-				                            <div class="col-sm-12 text-left">
-				                            	<a href="https://www.asumsi.co/category/pemilu" title="Pemilu"><p class="tag-little" title="Pemilu"> Pemilu </p></a>
-				                                <a href="https://www.asumsi.co/category/politik" title="Politik"><p class="tag-little" title="Politik"> Politik </p></a>
-				                            </div>
-				                        </div>
-				                            <a href="https://www.asumsi.co/post/beda-exit-poll-quick-count-dan-real-count-di-pemilu" title="Beda Exit Poll, Quick Count, dan Real Count di Pemilu "><h2 title="Beda Exit Poll, Quick Count, dan Real Count di Pemilu ">Beda Exit Poll, Quick Count, dan Real Count di Pemilu </h2></a>
-				                            <span class="mpost">Sering dengar istilah "exit poll", "quick count", dan "real count"? Apa bedanya, ya?</span>
-				                            <div class="row">
-				                                <div class="col-md">
-				                                    <span class="hpost">17 April 2019</span>
-				                                </div>
-				                               
-				                            </div>
-				                    	</div>
-				                   	</div>
-				      				</div>
-				     			 </div>
+				            <?php } ?>
+				                </div>
 				      			</div>
 				     			</div>
 				     		</div>

@@ -22,17 +22,19 @@
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Berita</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Input Berita</a>
-								<a class="dropdown-item" href="#">List Berita</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Update Berita</a>
-								<a class="dropdown-item" href="#">Hapus Berita</a>
+								<a class="dropdown-item" href="<?php echo base_url('index.php/Dashboard/inputBerita'); ?>">Input Berita</a>
+								<a class="dropdown-item" href="<?php echo base_url('index.php/Dashboard/listberita'); ?>">List Berita</a>
 							</div>
 						</li>
 						</ul>
+						
 						<form class="form-inline my-2 my-lg-0">
-							<button class="btn btn-outline-success my-2 my-sm-0"  href="" type="submit">Logout</button>
+							<a class="btn btn-outline-success my-2 my-sm-0"  href="<?php echo base_url('/index.php/Login/logout'); ?>" role="button">Logout</a>&nbsp;
+							<span class="navbar-text">
+					      	Welcome <?php echo $_SESSION['username']; ?>	
+					    </span>
 						</form>
+						
 					</div>
 				</nav>
 

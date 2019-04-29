@@ -28,21 +28,18 @@
     <link href="signin.css" rel="stylesheet">
 		  </head>
 		  <body class="text-center">
-		    <form class="form-signin">
-		  <img class="mb-4" src="https://www.asumsi.co/themes/asumsinew/assets/images/new-logo.png" alt="" width="72" height="72">
-		  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-		  <label for="inputEmail" class="sr-only">Email address</label>
-		  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-		  <label for="inputPassword" class="sr-only">Password</label>
-		  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-		  <div class="checkbox mb-3">
-		    <label>
-		      <input type="checkbox" value="remember-me"> Remember me
-		    </label>
-		  </div>
-		  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-		  <p class="mt-5 mb-3 text-muted"></p>
-		</form>
+            <div class="container">
+    		    <form class="form-signin" method="post" action="<?php echo base_url("index.php/Login/loginAction"); ?>">
+        		  <img class="mb-4" src="https://www.asumsi.co/themes/asumsinew/assets/images/new-logo.png" alt="" width="72" height="72">
+        		  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        		  <label for="inputEmail" class="sr-only">Username</label>
+        		  <input type="text" id="inputEmail" name="username" class="form-control" placeholder="Username" required autofocus><br>
+        		  <label for="inputPassword" class="sr-only">Password</label>
+        		  <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required><br>
+        		  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        		  <p class="mt-5 mb-3 text-muted"></p>
+        		  </form>
+            </div>
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
